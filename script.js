@@ -7,7 +7,7 @@ const userId = tg.initDataUnsafe.user?.id || 123456789; // احتياطي
 const username = tg.initDataUnsafe.user?.username || "User";
 
 // عنوان خادم Flask (يجب تغيير IP حسب هاتفك)
-const API_BASE = "http://10.238.248.37:5000/api";  // 👈 غيّر x إلى الرقم الصحيح
+const API_BASE = "http://127.0.0.1:5000/api";// 👈 غيّر x إلى الرقم الصحيح
 
 // عناصر الصفحة
 const balanceEl = document.getElementById('balance');
